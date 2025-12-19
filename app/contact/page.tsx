@@ -65,7 +65,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Office Location</h3>
-                    <p className="text-gray-600">123 Main Street<br/>The Bronx, NY 10451</p>
+                    <p className="text-gray-600">3301 Barker Avenue<br/>The Bronx, NY 10467</p>
                   </div>
                 </div>
 
@@ -75,7 +75,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Phone</h3>
-                    <p className="text-gray-600">(718) 555-0100</p>
+                    <p className="text-gray-600">(718) 850-4000</p>
                   </div>
                 </div>
 
@@ -85,7 +85,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Email</h3>
-                    <p className="text-gray-600">info@nyho.com</p>
+                    <p className="text-gray-600">nyhomeowner@gmail.com</p>
                   </div>
                 </div>
 
@@ -104,7 +104,21 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="mt-12 bg-gray-50 rounded-xl p-6">
+              {/* Google Maps */}
+              <div className="mt-8 rounded-xl overflow-hidden shadow-lg">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48274.60409020376!2d-73.9080895446359!3d40.86830231249058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f35dadf04c31%3A0xf9838c74fa1580fa!2sNY%20HomeOwner!5e0!3m2!1sen!2sus!4v1766166237147!5m2!1sen!2sus"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="NYHO Office Location"
+                ></iframe>
+              </div>
+
+              <div className="mt-8 bg-gray-50 rounded-xl p-6">
                 <h3 className="font-bold text-lg mb-4">Quick Links</h3>
                 <div className="space-y-3">
                   <a href="/deal" className="block text-blue-600 hover:underline">Browse Current Inventory →</a>
