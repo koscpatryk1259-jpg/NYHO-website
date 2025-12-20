@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Navigation from './components/Navigation';
+import Navigation from './components/navigation'
 
 export default function Home() {
   const [formData, setFormData] = useState({

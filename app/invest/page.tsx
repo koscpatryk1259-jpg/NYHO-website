@@ -1,6 +1,6 @@
 'use client';
 
-import Navigation from '../components/Navigation';
+import Navigation from '../components/navigation';
 import { useState } from 'react';
 
 export default function InvestPage() {
