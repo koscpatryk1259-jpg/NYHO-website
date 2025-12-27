@@ -30,7 +30,7 @@ export default function Navigation() {
           <Link href="/">
             <div className="cursor-pointer flex items-center hover:opacity-90 transition-opacity">
               <Image 
-                src="/logo.jpg" 
+                src="/logo.png" 
                 alt="NY Home Owner Logo" 
                 width={200}
                 height={67}
